@@ -1,4 +1,4 @@
-@use '../util' as u;
+@use '../util/' as u;
 
 .grid {
     display: grid;
@@ -8,11 +8,11 @@
     width: min(100% - 40px, 1000px);
     margin-inline: auto;
 
-    // @include u.breakpoint(large) {
-    //     grid-template-columns: 2fr 1fr;
-    //     grid-template-rows: auto;
-    // }
-    
+    @include u.breakpoint(large) {
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto;
+    }
+
     &__main {
         background-color: antiquewhite;
     }
@@ -25,10 +25,4 @@
     &__sidebar{
         padding: 40px;
     }
-
-    @media (min-widht: 900px) {
-        grid-template-columns: 2fr 1fr;
-        grid-template-rows: auto;
-    }
 }
-
