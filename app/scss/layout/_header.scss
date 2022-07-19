@@ -1,0 +1,28 @@
+@use '../util/' as u;
+
+.header {
+    padding: 30px 15px 29px;
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__nav {
+        margin: 0 285px;
+        width: 444px;
+        display: flex;
+        justify-content: space-between;
+        text-transform: uppercase;
+        line-height: 1;
+    }
+
+    &__icons_elem1 {
+        padding-right: 22px;
+    }
+
+    &__icons_elem1::after {
+        content: url(./IMG/header_solutions_icon.svg);     
+}
+}
