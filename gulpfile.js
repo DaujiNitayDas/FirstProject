@@ -24,7 +24,7 @@ return src('app/js/script.js', { sourcemaps: true })
 function browsersyncServe(cb){
 browsersync.init({
     server: {
-      baseDir: '.'
+    baseDir: '.'
     }
   });
   cb();

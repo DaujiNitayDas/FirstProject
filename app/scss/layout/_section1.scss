@@ -1,0 +1,40 @@
+@use '../util/' as u;
+
+.section1 {
+    margin-top: 28px;
+    border-radius: 32px;
+    background-color: u.$background-color;
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__nav1 {
+        transform: translateY(50%);
+        margin-right: 25px
+    }
+
+    &__nav2 {
+        transform: translateY(50%);
+    }
+
+    &__content {
+        max-width: 587px;
+        padding: 145px 0 120px;
+
+        &__header {
+            font-family: u.$fontHead;
+            font-size: 3.625em;
+            line-height: 1.2;
+            margin-bottom: 19px;
+        }
+
+        &__main {
+            font-size: 1em;
+            line-height: 1.2;
+            margin-bottom: 30px;
+        }
+    }
+    
+}

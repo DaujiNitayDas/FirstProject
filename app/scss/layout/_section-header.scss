@@ -1,0 +1,19 @@
+@use '../util/' as u;
+
+.section__header {
+    max-width: 1151px;
+    margin: 56px auto;
+    text-align: center;
+
+    &__head {
+        font-family: u.$fontHead;
+        font-size: 2.625em;
+        line-height: 1.2;
+    }
+
+    &__content {
+        max-width: 628px;
+        margin: 9px auto 55px;
+        line-height: 1.2;
+        }
+}

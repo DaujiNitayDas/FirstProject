@@ -16,13 +16,17 @@
         justify-content: space-between;
         text-transform: uppercase;
         line-height: 1;
+
+        &_elem1::after {
+            content: url(/img/svg/header_solutions_icon.svg);
+            }
     }
 
     &__icons_elem1 {
         padding-right: 22px;
     }
-
-    &__icons_elem1::after {
-        content: url(./IMG/header_solutions_icon.svg);     
 }
+
+span:nth-child(4) {
+    padding-left: 14px;
 }
