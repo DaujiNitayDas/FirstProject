@@ -1,0 +1,30 @@
+@use '../util/' as u;
+
+
+.section3__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 23.38%);
+    gap: 28px;
+    margin-bottom: 100px;
+    position: relative;
+
+    &__item__imgwrap {
+        padding: 28px 28px 37px;
+    }
+
+    &__item__header {
+        font-family: u.$fontHead;
+        font-size: 22px;
+        margin-bottom: 9px;
+    }
+
+    &__item__content {
+        margin-bottom: 25px;
+    }
+
+    &__item__footer {
+        font-size: 1.125em;
+        position: absolute;
+        bottom: -25px;
+    }
+}

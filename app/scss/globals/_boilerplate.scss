@@ -58,10 +58,9 @@ a.btn {
     display: inline-block;
     height: 50px;
     line-height: 50px;
-    padding-left: 53px;
-    padding-right: 53px;
+    padding-inline: 53px;
     color: #000000;
-    font-size: 18px;
+    font-size: 1.125em;
     border: 1px solid #000000;
     border-radius: 200px;
     transition: opacity 0.2s ease;
@@ -74,6 +73,7 @@ a.btn:hover {
 
 .btn-big,
 a.btn-big {
-    min-height: 65px;
-    line-height: 65px;
+    padding-inline: 63px;
+    min-height: 50px;
+    line-height: 50px;
 }

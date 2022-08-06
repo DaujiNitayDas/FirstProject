@@ -1,0 +1,33 @@
+@use '../util/' as u;
+
+
+.section4__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 31.9%);
+    gap: 28px;
+
+    &__items {
+        background-color: #F8F9FA;
+        border-radius: 16px;
+        padding-top: 41px;
+        text-align: center;
+    
+
+         &__header {
+            font-family: u.$fontHead;
+            font-weight: 400;
+            font-size: 0.812em;
+        }
+
+         &__content {
+            margin-bottom: 30px;
+            font-family: u.$fontHead;
+            font-weight: 400;
+            font-size: 1.75em;
+        }
+
+         &__btn {
+            margin-bottom: 30px;
+        }
+    }
+}
