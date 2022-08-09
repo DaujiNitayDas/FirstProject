@@ -1,0 +1,100 @@
+@use '../util/' as u;
+
+.section6 {
+    margin-top: 75px;
+
+    &__header {
+        text-align: center;
+        font-family: u.$fontHead;
+        font-size: 2.625em
+    }
+
+    &__search_cover {
+        margin: 24px auto 18px;
+        width: 50%;
+        height: 60px;
+        background: url(/img/svg/search_icon.svg) no-repeat 20px 50%;
+        border: 1px solid #C5C5C5;
+        border-radius: 100px;
+        text-align: center;
+
+        &_form {
+            width: 80%;
+            height: 56px;
+        }
+    }
+
+    &__btn__cover div + div {
+        margin-left: 7px;
+    }
+
+    &__btn__cover {
+        width: 50.77%;
+        margin: auto;
+        text-align: center;
+
+        &__btn__item {
+            display: inline-block;
+            padding: 12px 22px 13px;
+            margin-bottom: 7px;
+            font-size: 1.14em;
+            color: #000000;
+            border: 1px solid #C5C5C5;
+            border-radius: 200px;
+        }
+    }
+
+    &__content__cover {
+        max-width: 71.92%;
+        margin: 61px auto 19px;
+        text-align: center;
+        background: #DCE5E2;
+        border-radius: 16px;
+
+        &__header {
+            margin: 0;
+            padding-top: 47px;
+            font-family: u.$fontHead;
+            font-size: 2.625em;
+        }
+
+        &__content {
+            margin: 0;
+            padding-top: 9px;
+        }
+    }
+
+    &__img_cover {
+        padding-top: 14px;
+    }
+
+    &__input_sinUp_cover {
+        display: flex;
+        justify-content: center;
+        margin: 14px 0 19px;
+        padding-bottom: 43px;
+
+        &__email_wrapper {
+            width: 30.48%;
+            background: #DCE5E2;
+            border: 1px solid #000000;
+            border-radius: 54px 0px 0px 54px;
+
+            &_email {
+                width: 80%;
+                height: 50px;
+                font-size: 1.14em;
+                background: #DCE5E2;
+            }
+        }
+
+        &__sinUp_wrapper {
+            width: 12.29%;
+            line-height: 50px;
+            font-size: 1.14em;
+            color: #FFFFFF;
+            background: #000000;
+            border-radius: 0px 200px 200px 0px;
+        }
+    }
+}

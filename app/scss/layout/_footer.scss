@@ -1,0 +1,64 @@
+@use '../util/' as u;
+
+.footer__cover {
+    background: #F8F9FA;
+    border-top: 1px solid #DCE5E2;
+    border-radius: 16px;
+}
+
+.footer__row_elem1 {
+    display: flex;
+    margin: 55px 45px 0;
+    height: 300px;
+    border-bottom: 1px solid #DCE5E2;
+}
+
+.nav_cover {
+    display: flex;
+}
+
+.foteer__logo__wrapper {
+    max-width: 22.51%;
+    margin-right: 118px;
+}
+
+.logo__content {
+    margin-top: 18px;
+}
+
+.nav__header {
+    font-family: u.$fontHead;
+    font-size: 1.375em;
+}
+
+.nav_cover > div + div {
+    margin-left: 120px;
+}
+
+.nav__list {
+    margin-top: 19px;
+    font-size: 1.0625em;
+}
+
+.nav__list li+li {
+    margin-top: 14px;
+}
+
+.footer__row_elem2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 52px 73px 0;
+}
+
+.elem1 {
+    font-family: u.$fontHead;
+    font-size: 1.125em;
+}
+
+.elem2 {
+    font-size: 1.125;
+}
+
+.elem2::after {
+    content: url(/img/svg/footer_icon.svg);
+}

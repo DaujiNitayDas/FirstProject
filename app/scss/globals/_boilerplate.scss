@@ -77,3 +77,10 @@ a.btn-big {
     min-height: 50px;
     line-height: 50px;
 }
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+    outline: none;
+}
